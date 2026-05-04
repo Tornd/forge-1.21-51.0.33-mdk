@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:alexandrite_block"
+    }
+  ]
+  },
+  "pattern": [
+    "B"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:alexandrite"
+  }
+}

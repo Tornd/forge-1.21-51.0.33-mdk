@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_ALEXANDRITE.get());
                         pOutput.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                        pOutput.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
 
                     }).build());
 
@@ -42,6 +44,8 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ALEXANDRITE_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.tutorialmod.alexandrite_blocks"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
 
